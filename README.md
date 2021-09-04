@@ -5,6 +5,6 @@ Build an algorithm for classification of user reviews in to one of the four cate
 
 ## Functionality
  * Reads review strings from the csv input.
- * Reviews get unnecessary punctuction removed, and reviews with character length <4 are removed from the dataset.
+ * Unnecessary punctuction is removed using regex, and reviews with character length <4 are also removed from the dataset.
  * Reviews are then vectorised using TF-IDF and BERT embeddings for the final model.
  * Created a script to apply the predicted outcome to each review in the xlsx format.
